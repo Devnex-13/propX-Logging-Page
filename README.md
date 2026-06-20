@@ -33,6 +33,12 @@ npm run preview
 
 `netlify.toml` in the repo root configures the same settings automatically.
 
+## GitHub Pages (automatic)
+
+Pushes to `main` run `.github/workflows/deploy-pages.yml`. In the repo **Settings → Pages**, set **Source** to **GitHub Actions** if it is not already. The site URL will be:
+
+https://devnex-13.github.io/propX-Logging-Page/
+
 ## Repository
 
 https://github.com/Devnex-13/propX-Logging-Page
