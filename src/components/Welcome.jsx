@@ -1,23 +1,12 @@
 import './styles/Welcome.css';
 
-const DECOR_NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-
 function Welcome({ onNavigate }) {
   return (
     <div className="welcome-container">
-      <div className="numbers-grid" aria-hidden="true">
-        {DECOR_NUMBERS.map((num) => (
-          <div key={num} className="number-circle">
-            {num}
-          </div>
-        ))}
-      </div>
-
+      {/* Main content card */}
       <div className="welcome-card">
         <div className="welcome-header">
-          <h1>
-            Welcome to PopX <span className="number-circle-inline">1</span>
-          </h1>
+          <h1>Welcome to PopX</h1>
         </div>
 
         <p className="welcome-description">
@@ -37,7 +26,7 @@ function Welcome({ onNavigate }) {
           className="btn btn-secondary"
           onClick={() => onNavigate('signup')}
         >
-          Create your PopX account
+          Already Registered? Login
         </button>
       </div>
     </div>

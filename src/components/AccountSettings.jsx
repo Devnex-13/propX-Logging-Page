@@ -10,7 +10,7 @@ function AccountSettings({ user, onLogout }) {
         <div className="profile-section">
           <div className="profile-header">
             <img
-              src={`https://ui-avatars.com/api/?name=${encodeURIComponent(user.fullName || user.email || 'User')}&background=6f42c1&color=fff&size=160`}
+              src="https://www.magnific.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_9631091.htm#fromView=keyword&page=1&position=0&uuid=2363483e-5154-4e0f-bf20-fd5089457cac&query=Woman"
               alt="Profile"
               className="profile-image"
             />
